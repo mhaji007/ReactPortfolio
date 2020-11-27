@@ -1,6 +1,7 @@
 import React from 'react'
 import Introduction from "../components/Introduction";
 import Projects from "../components/Projects";
+import About from "../components/About";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
 
     <Introduction/>
     <Projects/>
+    <About/>
     </>
   )
 }
