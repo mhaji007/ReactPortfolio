@@ -5,6 +5,14 @@ function Projects() {
   return (
     <section className="section-wrapper my-projects" id="about">
       <div className="content ">
+        <Fade up>
+          <h2 className="title">
+            <span>
+              <i class="fas fa-laptop-code"></i>{" "}
+            </span>
+            <strong>Projects</strong>
+          </h2>
+        </Fade>
         <Fade left>
           <div className="project">
             <div className="image-container">
@@ -21,13 +29,11 @@ function Projects() {
               Currently migrating the website UI to React.js/Next.js */}
               </p>
 
-              <button>
-                <i className="fa fa-eye"></i> Read More
-              </button>
+              <button>Live Demo</button>
             </div>
           </div>
         </Fade>
-        <Fade right>
+        <Fade left>
           <div className="project right">
             <div className="text-container">
               <h3>eShop</h3>
@@ -36,7 +42,7 @@ function Projects() {
                 {/* Utilized MERN stack along with Ant Design and Bootstrap <br/> */}
                 {/* this Ecommerce app that is equipped with advanced product search and filtering system, payment integration, admin dashboard and more! */}
               </p>
-              <button>READ MORE</button>
+              <button>Live Demo</button>
             </div>
             <div className="image-container">
               <div className="image-wrap">
@@ -57,16 +63,16 @@ function Projects() {
             <div className="text-container">
               <h3>Crypto Console</h3>
               <p>React js, Bootstrap and Crypto Compare API</p>
-              <button>READ MORE</button>
+              <button>Live Demo</button>
             </div>
           </div>
         </Fade>
-        <Fade right>
+        <Fade left>
           <div className="project right">
             <div className="text-container">
               <h3>Repo Finder</h3>
               <p>React js, Next js, Bulma CSS and Github API </p>
-              <button>READ MORE</button>
+              <button>Live Demo</button>
             </div>
             <div className="image-container">
               <div className="image-wrap">

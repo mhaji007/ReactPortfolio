@@ -5,7 +5,7 @@ function About() {
   return (
     <div>
         <section className="section-wrapper" id="about">
-          <h2 className="section__title section__title--about">Who am I?</h2>
+          <h2 className="section__title section__title--about"><strong> <i class="fas fa-user-tag"></i> About</strong></h2>
           <p className="section__subtitle section__subtitle--about">A web developer based out of California</p>
 
            <div className="about-me__body">
