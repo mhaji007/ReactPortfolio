@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import {Link} from "react-router-dom";
 
 function Projects() {
   return (
@@ -15,12 +16,14 @@ function Projects() {
         </Fade>
         <Fade left>
           <div className="project">
+          <Link to="">
             <div className="image-container">
               <div className="image-wrap">
                 <div className="image"></div>
               </div>
               <div className="shadow"></div>
             </div>
+          </Link>
             <div className="text-container">
               <h3>aEi.ai</h3>
               <p>
@@ -44,22 +47,26 @@ function Projects() {
               </p>
               <button>Live Demo</button>
             </div>
+              <Link to="">
             <div className="image-container">
               <div className="image-wrap">
                 <div className="image two"></div>
               </div>
               <div className="shadow"></div>
             </div>
+              </Link>
           </div>
         </Fade>
         <Fade left>
           <div className="project">
+          <Link to="">
             <div className="image-container">
               <div className="image-wrap">
                 <div className="image three"></div>
               </div>
               <div className="shadow"></div>
             </div>
+            </Link>
             <div className="text-container">
               <h3>Crypto Console</h3>
               <p>React js, Bootstrap and Crypto Compare API</p>
@@ -74,12 +81,14 @@ function Projects() {
               <p>React js, Next js, Bulma CSS and Github API </p>
               <button>Live Demo</button>
             </div>
+            <Link to="">
             <div className="image-container">
               <div className="image-wrap">
                 <div className="image four"></div>
               </div>
               <div className="shadow"></div>
             </div>
+            </Link>
           </div>
         </Fade>
       </div>

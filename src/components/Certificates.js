@@ -20,8 +20,10 @@ import cert17 from "../images/cert17.jpg";
 import cert18 from "../images/cert18.jpg";
 import cert19 from "../images/cert19.jpg";
 import cert20 from "../images/cert20.jpg";
-import cert21 from "../images/cert21.JPG";
-import cert22 from "../images/cert22.PNG";
+import cert23 from "../images/cert23.png";
+import cert24 from "../images/cert24.png";
+import cert25 from "../images/cert25.png";
+import cert26 from "../images/cert26.png";
 
 function Certificates() {
   return (
@@ -38,6 +40,18 @@ function Certificates() {
         </p>
 
         <div className="certificates">
+          <Fade>
+            <img src={cert23} alt="" className="certificate__img" />
+          </Fade>
+          <Fade>
+            <img src={cert24} alt="" className="certificate__img" />
+          </Fade>
+          <Fade>
+            <img src={cert25} alt="" className="certificate__img" />
+          </Fade>
+          <Fade>
+            <img src={cert26} alt="" className="certificate__img" />
+          </Fade>
           <Fade>
             <img src={cert1} alt="" className="certificate__img" />
           </Fade>
@@ -113,7 +127,6 @@ function Certificates() {
           <Fade>
             <img src={cert20} alt="" className="certificate__img" />
           </Fade>
-
         </div>
       </section>
     </div>

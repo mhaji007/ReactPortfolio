@@ -502,13 +502,22 @@ header {
   padding-left: 0em;
 }
 
-.certificates :first-child {
-  height: 14.019rem;
+/* .certificates img {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+} */
+
+.certificates :first-child, .certificates :nth-child(5), .certificates :nth-child(6)  {
+  height: 16.019rem;
+  object-fit: cover;
 }
 
-.certificates :first-child + img {
-  height: 14.019rem;
+.certificates :nth-child(6)  {
+ margin: 2px;
 }
+
+
 
 .section__subtitle--certificate {
   padding-right: 2em;
@@ -882,14 +891,14 @@ body {
 }
 
 .project:nth-child(2) .shadow {
-  border-color: #539aff;
+  border-color: #3c3183
 }
 
 .project:nth-child(3) .shadow {
-  border-color: #061a44;
+  border-color: #539aff
 }
 .project:nth-child(4) .shadow {
-  border-color: #28accc;
+  border-color: #061a44;
 }
 
 .project h3 {
@@ -922,6 +931,7 @@ button {
 .image-container {
   position: relative;
   margin-right: 10vw;
+  cursor: pointer;
 }
 
 .image-wrap {
