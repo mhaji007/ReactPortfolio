@@ -16,14 +16,14 @@ function Projects() {
         </Fade> */}
         <Fade left>
           <div className="project">
-          <Link to="">
-            <div className="image-container">
-              <div className="image-wrap">
-                <div className="image"></div>
+            <a href="https://aei.ai/" target="_blank" rel="noreferrer">
+              <div className="image-container">
+                <div className="image-wrap">
+                  <div className="image"></div>
+                </div>
+                <div className="shadow"></div>
               </div>
-              <div className="shadow"></div>
-            </div>
-          </Link>
+            </a>
             <div className="text-container">
               <h3>aEi.ai</h3>
               <p>
@@ -32,7 +32,9 @@ function Projects() {
               Currently migrating the website UI to React.js/Next.js */}
               </p>
 
-              <button>Live Demo</button>
+              <a href="https://aei.ai/" target="_blank" rel="noreferrer">
+                <button>Live Demo</button>
+              </a>
             </div>
           </div>
         </Fade>
@@ -45,32 +47,52 @@ function Projects() {
                 {/* Utilized MERN stack along with Ant Design and Bootstrap <br/> */}
                 {/* this Ecommerce app that is equipped with advanced product search and filtering system, payment integration, admin dashboard and more! */}
               </p>
-              <button>Live Demo</button>
+              <a
+                href="https://client-eshop.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Live Demo</button>
+              </a>
             </div>
-              <Link to="">
-            <div className="image-container">
-              <div className="image-wrap">
-                <div className="image two"></div>
+            <a
+              href="https://client-eshop.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="image-container">
+                <div className="image-wrap">
+                  <div className="image two"></div>
+                </div>
+                <div className="shadow"></div>
               </div>
-              <div className="shadow"></div>
-            </div>
-              </Link>
+            </a>
           </div>
         </Fade>
         <Fade left>
           <div className="project">
-          <Link to="">
-            <div className="image-container">
-              <div className="image-wrap">
-                <div className="image three"></div>
+            <a
+              href="https://wizardly-shannon-f554da.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="image-container">
+                <div className="image-wrap">
+                  <div className="image three"></div>
+                </div>
+                <div className="shadow"></div>
               </div>
-              <div className="shadow"></div>
-            </div>
-            </Link>
+            </a>
             <div className="text-container">
               <h3>Crypto Console</h3>
               <p>React js, Bootstrap and Crypto Compare API</p>
-              <button>Live Demo</button>
+              <a
+                href="https://wizardly-shannon-f554da.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Live Demo</button>
+              </a>
             </div>
           </div>
         </Fade>
@@ -79,16 +101,26 @@ function Projects() {
             <div className="text-container">
               <h3>Repo Finder</h3>
               <p>React js, Next js, Bulma CSS and Github API </p>
-              <button>Live Demo</button>
+              <a
+                href="https://repo-finder.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Live Demo</button>
+              </a>
             </div>
-            <Link to="">
-            <div className="image-container">
-              <div className="image-wrap">
-                <div className="image four"></div>
+            <a
+              href="https://repo-finder.vercel.app/ "
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="image-container">
+                <div className="image-wrap">
+                  <div className="image four"></div>
+                </div>
+                <div className="shadow"></div>
               </div>
-              <div className="shadow"></div>
-            </div>
-            </Link>
+            </a>
           </div>
         </Fade>
       </div>

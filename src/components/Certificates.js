@@ -33,8 +33,6 @@ const images = [
   { src: "certificates/cert24.png" },
   { src: "certificates/cert25.png" },
   { src: "certificates/cert26.png" },
-  { src: "certificates/cert1.JPG" },
-  { src: "certificates/cert2.JPG" },
   { src: "certificates/cert3.jpg" },
   { src: "certificates/cert4.jpg" },
   { src: "certificates/cert5.jpg" },
@@ -53,6 +51,8 @@ const images = [
   { src: "certificates/cert18.jpg" },
   { src: "certificates/cert19.jpg" },
   { src: "certificates/cert20.jpg" },
+  { src: "certificates/cert1.JPG" },
+  { src: "certificates/cert2.JPG" },
 ];
 
 export default class Home extends Component {
