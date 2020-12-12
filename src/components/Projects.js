@@ -6,14 +6,14 @@ function Projects() {
   return (
     <section className="section-wrapper my-projects" id="about">
       <div className="content ">
-        <Fade up>
+        {/* <Fade up>
           <h2 className="title">
             <span>
               <i class="fas fa-laptop-code"></i>{" "}
             </span>
             <strong>Projects</strong>
           </h2>
-        </Fade>
+        </Fade> */}
         <Fade left>
           <div className="project">
           <Link to="">
