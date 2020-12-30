@@ -10,6 +10,5 @@ A redesign of my vanilla JS portfolio in ReactJS
  </table>
  
  
- 
 
 
