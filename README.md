@@ -9,6 +9,9 @@ A redesign of my vanilla JS portfolio in ReactJS
   </tr>
  </table>
  
+ ## Demo
+ https://portfolio-mehdi.herokuapp.com/
+ 
  
 
 
